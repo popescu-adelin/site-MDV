@@ -1,0 +1,89 @@
+.site-header { 
+    background-color: #612058;
+    padding: 2px 0;
+  }
+
+  .site-header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .site-identity img {
+    max-height: 110px;        
+    float: left;
+    margin: 0 10px 0 111px;
+  }
+
+  body{
+    background-color: #FEFEFE;
+    margin: 0;
+  }
+
+  h1{
+    text-align: center;
+    color: #612058;
+    font-size: 143px;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    
+  }
+
+  h2{
+    margin: 0;
+    text-align: center;
+    color: #612058;
+    font-size:75px;
+    font-family: "Brush Script MT",cursive;
+  }
+
+  div.transbox {
+    margin: 0 650px 0 650px;
+    background-color: #FEFEFE;
+    border: 2px #612058;
+    border-radius: 25%;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 2px;
+    font-weight: bold;
+    color: #612058;
+    text-align: center;
+  }
+
+  .site-footer {
+    padding: 40px 0;
+    background-color: #612058;
+  }
+  .site-footer .item.social > a {
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px;
+    color: #FEFEFE;
+    opacity: 0.75;
+  }
+  
+  .site-footer .item.social > a:hover {
+    opacity: 0.9;
+  }
+  
+  .site-footer .copyright {
+    color: #FEFEFE;
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+
+
+  
+  
