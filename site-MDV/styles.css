@@ -1,0 +1,258 @@
+.site-header {
+  background-color: #612058;
+  padding: 2px 0;
+}
+
+.site-header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-identity img {
+  max-height: 110px;
+  float: left;
+  margin: 0 10px 0 111px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+body {
+  background-color: #fefefe;
+  margin: 0;
+}
+
+.section1 {
+  background: linear-gradient(transparent, white), url("poza home.jpg");
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #612058;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+  }
+  h2 {
+    margin: 0;
+    text-align: center;
+    color: #612058;
+    font-size: 40px;
+    font-family: "Brush Script MT", cursive;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #612058;
+  font-size: 143px;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  color: #612058;
+  font-size: 75px;
+  font-family: "Brush Script MT", cursive;
+}
+
+div.transbox {
+  margin: auto;
+  background-color: #fefefe;
+  border: 2px #612058;
+  border-radius: 20px;
+  opacity: 0.6;
+  width: 50%;
+}
+
+div.transbox p {
+  margin: auto;
+  font-weight: bold;
+  color: #612058;
+  text-align: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  background-color: #fefefe;
+  height: 286px;
+  width: 267px;
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+  border-color: #612058;
+  border-width: 2px;
+  border-style: solid;
+}
+
+/*img{
+    max-width: 300px;
+    max-height: 600px;
+  }*/
+
+.box {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.box1 {
+  background-image: url("Ioana.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.box2 {
+  background-image: url("austin-wade-X6Uj51n5CE8-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.grid {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*.grid > div{
+    flex-basis: calc(33.33333% - 286px);
+  }*/
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay1 {
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #612058;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay1:hover {
+  opacity: 0.6;
+}
+
+.overlay2 {
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #612058;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay2:hover {
+  opacity: 0.6;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.site-footer {
+  padding: 40px 0;
+  background-color: #612058;
+}
+.site-footer .item.social > a {
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  color: #fefefe;
+  opacity: 0.75;
+}
+
+
+.site-footer .copyright {
+  color: #fefefe;
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
